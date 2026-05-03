@@ -1,11 +1,18 @@
+# enterprise-llm-cost-optimization-dashboard
+Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost efficiency, caching impact, and anomaly detection across departments (2025–2026).
+>>>>>>> 24a768f52b0cc2a559cf78c52ed1624adbad639e
+=======
 # Enterprise LLM Cost Optimization Dashboard
+
+# enterprise-llm-cost-optimization-dashboard
+Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost efficiency, caching impact, and anomaly detection across departments (2025–2026).
 
 ## Data Analyst Portfolio Demo
 
 Interactive dashboard analyzing LLM usage, costs, and optimization for 2025-2026 across departments/models.
 
 ### Quick Start (HR-Friendly)
-1. Download ZIP from [GitHub](https://github.com/YOUR_USERNAME/llm-dashboard) 
+1. Download ZIP from [GitHub](https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard) 
 2. Unzip folder
 3. Double-click `index.html` → Opens instantly (no install needed!)
 
@@ -32,3 +39,7 @@ npm run build  # dist/ folder for static hosting
 Deploy to Netlify/Vercel/GitHub Pages for portfolio link.
 
 **Analysis:** Upload CSV → Real-time visualizations + AI-driven insights.
+=======
+# enterprise-llm-cost-optimization-dashboard
+Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost efficiency, caching impact, and anomaly detection across departments (2025–2026).
+>>>>>>> 24a768f52b0cc2a559cf78c52ed1624adbad639e
