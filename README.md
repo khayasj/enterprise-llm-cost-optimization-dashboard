@@ -59,3 +59,11 @@ Date,Department,Model,Tokens_In,Tokens_Out,Cost,Latency_ms,Success_Rate,Cached,A
 npm install && npm run dev  # localhost:5173
 npm run build  # dist/ for Netlify
 ```
+
+### Data Pipeline Note
+To simulate real-world data architecture, this project separates raw, aggregated, and KPI layers. The dashboard uses aggregated weekly data for performance and clarity, while full-resolution data supports deeper analysis.
+
+### Author
+Shin Than Thar Aung
+📧 sthanttaung@gmail.com
+🔗 https://www.linkedin.com/in/shinttaung/
