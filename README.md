@@ -36,14 +36,14 @@ Interactive dashboard with upload CSV → real-time analysis.
 1. Download ZIP: https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard
 2. Unzip → **Double-click `index.html`** (no install/server needed!)
 
-**[Live Demo - Load SAMPLE_DATA.csv]** (Netlify URL after deploy) 👈
+**[Live Demo - Load Enterprise_LLM_Usage.csv]** (Netlify URL after deploy) 👈
 
-### Sample Dataset (SAMPLE_DATA.csv)
+### Dataset (Enterprise_LLM_Usage.csv - 400KB)
 ```
-Date,Department,Model,Tokens_In,Tokens_Out,Cost,Latency_ms,Success_Rate,Cached,Anomaly
-2025-01-01,Engineering,GPT-4o-mini,15000,3500,0.85,1200,0.98,0.3,0
-...
+Week,Department,Model,Weekly_Cost,Weekly_Tokens,Avg_Latency,Cache_Hit_Rate,Success_Rate,...
+2024-12-30/2025-01-05,Customer Support,Claude-3.5-Sonnet,1.2915,191205,3817.78,0.357,1.0,...
 ```
+**Real dataset** - 52 weeks enterprise LLM usage (6 depts, 5 models, costs/latency/cache/anomalies)
 
 ### Features
 | Chart | Insight |
