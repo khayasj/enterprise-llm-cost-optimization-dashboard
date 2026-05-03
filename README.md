@@ -1,10 +1,6 @@
-# enterprise-llm-cost-optimization-dashboard
-Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost efficiency, caching impact, and anomaly detection across departments (2025–2026).
->>>>>>> 24a768f52b0cc2a559cf78c52ed1624adbad639e
-=======
 # Enterprise LLM Cost Optimization Dashboard
 
-## 🎯 Business Objective & Analysis Purpose
+## Business Objective & Analysis Purpose
 
 **Synthetic enterprise dataset (2025–2026) simulating:**
 - Multi-model usage (GPT, Claude, Gemini, Llama)  
@@ -20,7 +16,7 @@ Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost 
 - Quantify savings opportunities (caching, routing, optimization)  
 - Provide actionable recommendations for enterprise AI systems
 
-## 📊 Key Insights & Business Improvements
+## Key Insights & Business Improvements
 
 1. **Cost Optimization:** Route low-complexity queries to cheaper models (GPT-4o-mini/Llama)
 2. **Caching Strategy:** Increase cache hit rate 25-40% → 30-50% savings
@@ -28,11 +24,11 @@ Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost 
 4. **Model Routing:** Balance cost/latency (Engineering: GPT-4o-mini, Sales: Gemini)
 5. **ROI:** 15-25% annual cost reduction ($2.8M → $2.1M)
 
-## 🚀 Data Analyst Portfolio Demo
+## Data Analyst Portfolio Demo
 
 Interactive dashboard with upload CSV → real-time analysis.
 
-### Quick Start (HR-Friendly)
+### Quick Start
 1. Download ZIP: https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard
 2. Unzip → **Double-click `index.html`** (no install/server needed!)
 
@@ -64,8 +60,10 @@ npm install && npm run dev  # localhost:5173
 npm run build  # dist/ for Netlify
 ```
 
-**Deploy:** Drag `dist/` to Netlify Drop → Live URL for portfolio!
-=======
-# enterprise-llm-cost-optimization-dashboard
-Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost efficiency, caching impact, and anomaly detection across departments (2025–2026).
->>>>>>> 24a768f52b0cc2a559cf78c52ed1624adbad639e
+### Data Pipeline Note
+To simulate real-world data architecture, this project separates raw, aggregated, and KPI layers. The dashboard uses aggregated weekly data for performance and clarity, while full-resolution data supports deeper analysis.
+
+### Author
+Shin Than Thar Aung
+📧 sthanttaung@gmail.com
+🔗 https://www.linkedin.com/in/shinttaung/
