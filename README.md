@@ -32,7 +32,10 @@ Interactive dashboard with upload CSV → real-time analysis.
 1. Download ZIP: https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard
 2. Unzip → **Double-click `index.html`** (no install/server needed!)
 
-**[Live Demo - Load Enterprise_LLM_Usage.csv]** (Netlify URL after deploy) 👈
+### Deployment
+Live Demo:
+👉 
+(https://enterprise-llm-usage-analysis.netlify.app/)
 
 ### Dataset (Enterprise_LLM_Usage.csv - 400KB)
 ```
