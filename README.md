@@ -4,41 +4,67 @@ Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost 
 =======
 # Enterprise LLM Cost Optimization Dashboard
 
-# enterprise-llm-cost-optimization-dashboard
-Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost efficiency, caching impact, and anomaly detection across departments (2025–2026).
+## 🎯 Business Objective & Analysis Purpose
 
-## Data Analyst Portfolio Demo
+**Synthetic enterprise dataset (2025–2026) simulating:**
+- Multi-model usage (GPT, Claude, Gemini, Llama)  
+- Token consumption patterns  
+- Cost structures  
+- Cache efficiency  
+- Anomaly scenarios  
 
-Interactive dashboard analyzing LLM usage, costs, and optimization for 2025-2026 across departments/models.
+**Goals:**
+- Identify cost drivers across departments and models  
+- Detect inefficiencies in LLM usage  
+- Analyze cost vs latency vs success rate trade-offs  
+- Quantify savings opportunities (caching, routing, optimization)  
+- Provide actionable recommendations for enterprise AI systems
+
+## 📊 Key Insights & Business Improvements
+
+1. **Cost Optimization:** Route low-complexity queries to cheaper models (GPT-4o-mini/Llama)
+2. **Caching Strategy:** Increase cache hit rate 25-40% → 30-50% savings
+3. **Anomaly Detection:** Alert on spikes (Marketing Claude usage 2x average)
+4. **Model Routing:** Balance cost/latency (Engineering: GPT-4o-mini, Sales: Gemini)
+5. **ROI:** 15-25% annual cost reduction ($2.8M → $2.1M)
+
+## 🚀 Data Analyst Portfolio Demo
+
+Interactive dashboard with upload CSV → real-time analysis.
 
 ### Quick Start (HR-Friendly)
-1. Download ZIP from [GitHub](https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard) 
-2. Unzip folder
-3. Double-click `index.html` → Opens instantly (no install needed!)
+1. Download ZIP: https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard
+2. Unzip → **Double-click `index.html`** (no install/server needed!)
 
-**Live Demo:** [View Analysis](http://your-deployed-url.netlify.app/) 👈
+**[Live Demo - Load SAMPLE_DATA.csv]** (Netlify URL after deploy) 👈
 
-### Features
-- Cost heatmaps & trends
-- Cache efficiency, latency insights
-- Dept/model recommendations
-- Responsive React + Recharts
-
-### Tech
-- React 19, Vite, TailwindCSS 4
-- D3.js, PapaParse (CSV loader)
-- Data: Enterprise LLM usage CSV
-
-### Run Locally (Developers)
-```bash
-npm install
-npm run dev  # http://localhost:5173
-npm run build  # dist/ folder for static hosting
+### Sample Dataset (SAMPLE_DATA.csv)
+```
+Date,Department,Model,Tokens_In,Tokens_Out,Cost,Latency_ms,Success_Rate,Cached,Anomaly
+2025-01-01,Engineering,GPT-4o-mini,15000,3500,0.85,1200,0.98,0.3,0
+...
 ```
 
-Deploy to Netlify/Vercel/GitHub Pages for portfolio link.
+### Features
+| Chart | Insight |
+|-------|---------|
+| Cost Heatmap | Dept/model cost drivers |
+| Token Trends | Usage growth/spikes |
+| Cache Efficiency | Savings potential |
+| Latency vs Cost | Trade-off analysis |
 
-**Analysis:** Upload CSV → Real-time visualizations + AI-driven insights.
+### Tech Stack
+- React 19 + Vite + TailwindCSS 4
+- Recharts + D3.js + Observable Plot
+- PapaParse (CSV loader)
+
+### Run Locally
+```bash
+npm install && npm run dev  # localhost:5173
+npm run build  # dist/ for Netlify
+```
+
+**Deploy:** Drag `dist/` to Netlify Drop → Live URL for portfolio!
 =======
 # enterprise-llm-cost-optimization-dashboard
 Enterprise LLM Cost Optimization Dashboard analyzing multi-model AI usage, cost efficiency, caching impact, and anomaly detection across departments (2025–2026).
