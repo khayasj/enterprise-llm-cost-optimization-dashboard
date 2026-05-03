@@ -1,0 +1,80 @@
+{
+  "executive_summary": {
+    "total_cost": 285420.50,
+    "avg_weekly_cost": 5489.24,
+    "top_cost_driver": "Engineering",
+    "potential_savings": "22-28%",
+    "key_finding": "Engineering dept uses GPT-4 for 40% of requests - routing 30% to Claude-3-Sonnet could save $18.5K/year"
+  },
+  "cost_drivers": {
+    "by_department": {
+      "Engineering": 89234.50,
+      "Data_Science": 67821.30,
+      "Product": 52341.20,
+      "Customer_Support": 31245.80,
+      "Marketing": 18932.40,
+      "Sales": 14234.60,
+      "Finance": 7821.40,
+      "Legal": 3789.30
+    },
+    "by_model": {
+      "GPT-4": 124532.10,
+      "Claude-3-Opus": 78234.50,
+      "Gemini-Pro": 34521.30,
+      "Claude-3-Sonnet": 28934.20,
+      "GPT-3.5-Turbo": 14234.80,
+      "Llama-3-70B": 4963.60
+    }
+  },
+  "anomalies": [
+    {
+      "week": "2025-03-26",
+      "department": "Engineering",
+      "spike": 2.5,
+      "cause": "Q2 Product Launch Sprint",
+      "cost_impact": 12340.50
+    },
+    {
+      "week": "2025-09-24",
+      "department": "Finance",
+      "spike": 2.0,
+      "cause": "Q4 Planning & Forecasting",
+      "cost_impact": 8234.20
+    }
+  ],
+  "efficiency_metrics": {
+    "cache_impact": {
+      "avg_cache_rate": 0.38,
+      "potential_rate": 0.65,
+      "savings_opportunity": 27340.50
+    },
+    "model_efficiency": {
+      "GPT-4": {"cost_per_1k": 0.03, "latency": 1200, "success_rate": 0.98},
+      "Claude-3-Opus": {"cost_per_1k": 0.025, "latency": 1100, "success_rate": 0.97},
+      "Claude-3-Sonnet": {"cost_per_1k": 0.008, "latency": 600, "success_rate": 0.95}
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "title": "Implement Smart Model Routing",
+      "impact": "$52K/year savings",
+      "action": "Route 40% of GPT-4 simple queries to Claude-3-Sonnet",
+      "implementation": "Deploy routing logic based on query complexity scoring"
+    },
+    {
+      "priority": "HIGH",
+      "title": "Optimize Cache Strategy",
+      "impact": "$27K/year savings",
+      "action": "Increase cache hit rate from 38% to 65%",
+      "implementation": "Implement semantic caching and extend TTL for stable queries"
+    },
+    {
+      "priority": "MEDIUM",
+      "title": "Department-Specific Policies",
+      "impact": "$18K/year savings",
+      "action": "Customer Support to use GPT-3.5-Turbo for 80% of queries",
+      "implementation": "Create department-specific model selection policies"
+    }
+  ]
+}
