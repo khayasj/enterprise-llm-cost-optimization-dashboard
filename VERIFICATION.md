@@ -139,7 +139,7 @@
 
 ## ✨ Portfolio Quality
 
-### CFO/CTO Ready
+### Portfolio demo review
 - [x] Executive summary (clear, concise)
 - [x] Visual hierarchy (most important first)
 - [x] Actionable recommendations
@@ -173,7 +173,7 @@
 
 ## 📝 Final Status
 
-**STATUS: ✅ PRODUCTION READY**
+**STATUS: ✅ DEMO DEPLOYED — NOT VALIDATED FOR PRODUCTION USE**
 
 All features implemented, tested, and deployed.
 Dashboard is live and fully functional.
