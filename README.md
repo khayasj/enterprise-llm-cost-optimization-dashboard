@@ -1,72 +1,41 @@
-# Enterprise LLM Cost Optimization Dashboard
+# Enterprise LLM Usage & Cost Optimisation Dashboard
 
-## Business Objective & Analysis Purpose
+A portfolio dashboard built with React, TypeScript and Recharts. It explores enterprise-style LLM usage, cost and performance measures using a **synthetic dataset**.
 
-**Synthetic enterprise dataset (2025–2026) simulating:**
-- Multi-model usage (GPT, Claude, Gemini, Llama)  
-- Token consumption patterns  
-- Cost structures  
-- Cache efficiency  
-- Anomaly scenarios  
+## What the dashboard shows
 
-**Goals:**
-- Identify cost drivers across departments and models  
-- Detect inefficiencies in LLM usage  
-- Analyze cost vs latency vs success rate trade-offs  
-- Quantify savings opportunities (caching, routing, optimization)  
-- Provide actionable recommendations for enterprise AI systems
+- Weekly cost and token usage by department and model
+- Department and model cost comparisons
+- Latency and success-rate comparisons
+- Cache hit-rate trends
+- Cost anomalies and scenario-based optimisation recommendations
 
-## Key Insights & Business Improvements
+## Data and interpretation
 
-1. **Cost Optimization:** Route low-complexity queries to cheaper models (GPT-4o-mini/Llama)
-2. **Caching Strategy:** Increase cache hit rate 25-40% → 30-50% savings
-3. **Anomaly Detection:** Alert on spikes (Marketing Claude usage 2x average)
-4. **Model Routing:** Balance cost/latency (Engineering: GPT-4o-mini, Sales: Gemini)
-5. **ROI:** 15-25% annual cost reduction ($2.8M → $2.1M)
+The dataset is simulated for this portfolio project. It does not contain real company usage or financial records.
 
-## Data Analyst Portfolio Demo
+All cost figures, savings estimates and recommendations are illustrative scenario outputs based on the assumptions documented in [ANALYSIS_METHODOLOGY.md](./ANALYSIS_METHODOLOGY.md). They are not savings achieved for an employer or client, and they should not be interpreted as a forecast or a validated business case.
 
-Interactive dashboard with upload CSV → real-time analysis.
+## Technology
 
-### Quick Start
-1. Download ZIP: https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard
-2. Unzip → **Double-click `index.html`** (no install/server needed!)
+- React, TypeScript and Vite
+- Recharts and D3.js
+- Tailwind CSS
+- CSV-based data loading
 
-### Deployment
-Live Demo:
-👉 
-(https://enterprise-llm-usage-analysis.netlify.app/)
+## Run locally
 
-### Dataset (Enterprise_LLM_Usage.csv - 400KB)
-```
-Week,Department,Model,Weekly_Cost,Weekly_Tokens,Avg_Latency,Cache_Hit_Rate,Success_Rate,...
-2024-12-30/2025-01-05,Customer Support,Claude-3.5-Sonnet,1.2915,191205,3817.78,0.357,1.0,...
-```
-**Real dataset** - 52 weeks enterprise LLM usage (6 depts, 5 models, costs/latency/cache/anomalies)
-
-### Features
-| Chart | Insight |
-|-------|---------|
-| Cost Heatmap | Dept/model cost drivers |
-| Token Trends | Usage growth/spikes |
-| Cache Efficiency | Savings potential |
-| Latency vs Cost | Trade-off analysis |
-
-### Tech Stack
-- React 19 + Vite + TailwindCSS 4
-- Recharts + D3.js + Observable Plot
-- PapaParse (CSV loader)
-
-### Run Locally
 ```bash
-npm install && npm run dev  # localhost:5173
-npm run build  # dist/ for Netlify
+npm install
+npm run dev
 ```
 
-### Data Pipeline Note
-To simulate real-world data architecture, this project separates raw, aggregated, and KPI layers. The dashboard uses aggregated weekly data for performance and clarity, while full-resolution data supports deeper analysis.
+## Demo
 
-### Author
-Shin Than Thar Aung
-📧 sthanttaung@gmail.com
-🔗 https://www.linkedin.com/in/shinttaung/
+[Open the dashboard](https://enterprise-llm-usage-analysis.netlify.app/)
+
+## Repository
+
+[View source code](https://github.com/khayasj/enterprise-llm-cost-optimization-dashboard)
+
+**Project author:** Shin Than Thar Aung
