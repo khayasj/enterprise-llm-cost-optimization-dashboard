@@ -1,9 +1,9 @@
 # Enterprise LLM Cost Optimization & Usage Intelligence
 ## Technical Methodology & Analysis Documentation
 
-**Project Lead:** Shin Than Thar Aung  
+**Project author:** Shin Than Thar Aung  
 **Email:** sthanttaung@gmail.com  
-**Role:** Principal Data Scientist & Cloud FinOps Strategist  
+**Role:** Portfolio project — data analysis and dashboard development  
 **Period:** 2025–2026
 
 ---
@@ -20,7 +20,7 @@ This analysis identifies **$79,000/year in potential savings (27.7% cost reducti
 
 ---
 
-## Data Context
+## Data disclosure\n\nThis project uses a synthetic dataset. Department names, usage patterns, costs and calculated savings are simulated. All financial impacts and recommendations are illustrative scenarios, not results achieved for an employer or client.\n\n## Data Context
 
 ### Dataset Structure
 - **Granularity:** Weekly aggregation at Department × Model level
@@ -293,9 +293,9 @@ Cache Savings = Total Cost × (Target Cache Rate - Current Cache Rate) × (1 - C
 
 ## Statistical Validation
 
-### Confidence Intervals
+### Illustrative Sensitivity Calculation
 
-All estimates calculated with 95% confidence (z = 1.96):
+The following calculation applies an assumed standard deviation to simulated data. It is an illustrative sensitivity calculation, not an empirical 95% confidence interval:
 
 ```python
 import scipy.stats as stats
